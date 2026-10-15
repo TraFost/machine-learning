@@ -1,0 +1,22 @@
+{
+  "leads": 2000,
+  "generation_seed": 43,
+  "split_seed": 42,
+  "train": 1200,
+  "validation": 400,
+  "test": 400,
+  "buying_process": "Same invented process as prepare_data.generate_leads",
+  "models": [
+    "logistic_regression",
+    "decision_tree",
+    "random_forest",
+    "gradient_boosting"
+  ],
+  "settings": "Original model settings. No hyperparameter search.",
+  "ranking_checks": [
+    10,
+    100
+  ],
+  "main_ranking_check": "top 100 of 400 (same 25% selection share as top 10 of 40)",
+  "test_policy": "Reserved for the final selected model. Do not compare all algorithms on test."
+}

@@ -1,0 +1,44 @@
+{
+  "algorithm": "decision_tree",
+  "train_leads": 1200,
+  "validation_leads": 400,
+  "validation_buyers": 95,
+  "brier": 0.1550119107886625,
+  "log_loss": 0.47985773094401735,
+  "baseline_probability": 0.2325,
+  "baseline_brier": 0.18111874999999997,
+  "baseline_log_loss": 0.548250759948846,
+  "hyperparameters": {
+    "ccp_alpha": 0.0,
+    "class_weight": null,
+    "criterion": "gini",
+    "max_depth": 3,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 10,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "train_sha256": "d0abb17a46aeafbb21dbb289139d0bf501832e46f872922171e2546b59f030f9",
+  "validation_sha256": "75fe2ffe185a84fecbfae73f5df72155f346e114b7d26f12afc6295061149ffc",
+  "top_10": {
+    "displayed_buyers": 7,
+    "displayed_precision": 0.7,
+    "expected_buyers": 7.0,
+    "expected_precision": 0.7,
+    "random_expected_buyers": 2.375,
+    "lift": 2.9473684210526314
+  },
+  "top_100": {
+    "displayed_buyers": 45,
+    "displayed_precision": 0.45,
+    "expected_buyers": 46.578947368421055,
+    "expected_precision": 0.46578947368421053,
+    "random_expected_buyers": 23.75,
+    "lift": 1.961218836565097
+  }
+}

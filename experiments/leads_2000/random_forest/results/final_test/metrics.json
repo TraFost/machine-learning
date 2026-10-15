@@ -1,0 +1,26 @@
+{
+  "test_leads": 400,
+  "test_buyers": 87,
+  "baseline_probability": 0.2325,
+  "brier": 0.1451851342506475,
+  "log_loss": 0.4528611612891541,
+  "baseline_brier": 0.17041874999999998,
+  "baseline_log_loss": 0.5243657948601671,
+  "test_sha256": "39f31392021a2073cbc2d2a75443fea4b42d9a96cca03d3dfa6a46be7b32d4ec",
+  "top_10": {
+    "displayed_buyers": 7,
+    "precision": 0.7,
+    "recall": 0.08045977011494253,
+    "expected_buyers_with_random_ties": 7.2727272727272725,
+    "random_selection_expected_buyers": 2.175,
+    "tie_adjusted_lift": 3.343782654127482
+  },
+  "top_100": {
+    "displayed_buyers": 41,
+    "precision": 0.41,
+    "recall": 0.47126436781609193,
+    "expected_buyers_with_random_ties": 42.16,
+    "random_selection_expected_buyers": 21.75,
+    "tie_adjusted_lift": 1.938390804597701
+  }
+}

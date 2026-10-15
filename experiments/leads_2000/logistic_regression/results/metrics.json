@@ -1,0 +1,45 @@
+{
+  "algorithm": "logistic_regression",
+  "train_leads": 1200,
+  "validation_leads": 400,
+  "validation_buyers": 95,
+  "brier": 0.15752813115354752,
+  "log_loss": 0.48490695702207165,
+  "baseline_probability": 0.2325,
+  "baseline_brier": 0.18111874999999997,
+  "baseline_log_loss": 0.548250759948846,
+  "hyperparameters": {
+    "C": 1.0,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": 0.0,
+    "max_iter": 1000,
+    "n_jobs": null,
+    "penalty": "deprecated",
+    "random_state": 42,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "train_sha256": "d0abb17a46aeafbb21dbb289139d0bf501832e46f872922171e2546b59f030f9",
+  "validation_sha256": "75fe2ffe185a84fecbfae73f5df72155f346e114b7d26f12afc6295061149ffc",
+  "top_10": {
+    "displayed_buyers": 5,
+    "displayed_precision": 0.5,
+    "expected_buyers": 6.5,
+    "expected_precision": 0.65,
+    "random_expected_buyers": 2.375,
+    "lift": 2.736842105263158
+  },
+  "top_100": {
+    "displayed_buyers": 45,
+    "displayed_precision": 0.45,
+    "expected_buyers": 45.34782608695652,
+    "expected_precision": 0.4534782608695652,
+    "random_expected_buyers": 23.75,
+    "lift": 1.9093821510297484
+  }
+}
