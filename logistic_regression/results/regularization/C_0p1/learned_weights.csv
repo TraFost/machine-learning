@@ -1,0 +1,7 @@
+feature,learned_weight
+intercept,-0.8540487318688085
+demo_requested,0.05967211626678912
+pricing_interest,0.08107848878615997
+purchase_intent=high,0.5087463572923215
+purchase_intent=low,-0.3713881227765639
+purchase_intent=medium,-0.1370197573329737

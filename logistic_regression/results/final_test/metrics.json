@@ -1,0 +1,16 @@
+{
+  "test_leads": 40,
+  "test_buyers": 8,
+  "baseline_purchase_probability": 0.2916666666666667,
+  "model_brier": 0.1546320090838,
+  "baseline_brier": 0.16840277777777776,
+  "model_log_loss": 0.4796422158084366,
+  "baseline_log_loss": 0.5223011252919102,
+  "displayed_top_10_buyers": 4,
+  "precision_at_10": 0.4,
+  "recall_at_10": 0.5,
+  "expected_top_10_buyers_with_random_ties": 4.0,
+  "random_selection_expected_buyers": 2.0,
+  "tie_adjusted_lift_at_10": 2.0,
+  "test_sha256": "b12938957b3c68dcbe3091a268232bfa211e72ce9c88d5c169c2ee2fb9cb25bb"
+}

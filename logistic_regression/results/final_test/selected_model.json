@@ -1,0 +1,15 @@
+{
+  "algorithm": "LogisticRegression",
+  "C": 1.0,
+  "max_iter": 1000,
+  "random_state": 42,
+  "training_group": "train.csv only; validation was not added",
+  "train_sha256": "ca86e2b6ecb50dbc56a343916bce896f5a3749730d53dc7fe9cdeeeb485ef28a",
+  "ranking_policy": "top 10 by probability; lead ID breaks displayed ties",
+  "main_ranking_check": "expected buyers in top 10 with random selection inside cutoff ties",
+  "probability_checks": [
+    "Brier score",
+    "log loss"
+  ],
+  "selection_reason": "No clear validation ranking benefit from more complex models; keep the simple original model."
+}
