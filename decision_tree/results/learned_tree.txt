@@ -1,0 +1,21 @@
+LEARNED DECISION TREE
+
+A category field is encoded as a yes/no input.
+For a yes/no field: <= 0.50 means no; > 0.50 means yes.
+weights: [nonbuyers, buyers] counts TRAINING leads at each end branch.
+The buyer share at that end branch supplies the purchase probability.
+These are training counts, not validation outcomes.
+
+|--- purchase_intent=high <= 0.50
+|   |--- purchase_intent=low <= 0.50
+|   |   |--- pricing_interest <= 0.50
+|   |   |   |--- weights: [15.00, 3.00] class: 0
+|   |   |--- pricing_interest >  0.50
+|   |   |   |--- weights: [15.00, 7.00] class: 0
+|   |--- purchase_intent=low >  0.50
+|   |   |--- pricing_interest <= 0.50
+|   |   |   |--- weights: [16.00, 6.00] class: 0
+|   |   |--- pricing_interest >  0.50
+|   |   |   |--- weights: [31.00, 4.00] class: 0
+|--- purchase_intent=high >  0.50
+|   |--- weights: [8.00, 15.00] class: 1

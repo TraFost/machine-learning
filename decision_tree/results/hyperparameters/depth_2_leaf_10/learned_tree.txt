@@ -1,0 +1,10 @@
+Training counts at each end branch are [nonbuyers, buyers].
+For yes/no fields: <= 0.50 means no; > 0.50 means yes.
+
+|--- purchase_intent=high <= 0.50
+|   |--- purchase_intent=low <= 0.50
+|   |   |--- weights: [30.00, 10.00] class: 0
+|   |--- purchase_intent=low >  0.50
+|   |   |--- weights: [47.00, 10.00] class: 0
+|--- purchase_intent=high >  0.50
+|   |--- weights: [8.00, 15.00] class: 1

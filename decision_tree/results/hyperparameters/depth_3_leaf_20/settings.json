@@ -1,0 +1,16 @@
+{
+  "max_depth": 3,
+  "min_samples_leaf": 20,
+  "change": "Larger end groups",
+  "actual_depth": 3,
+  "end_groups": 4,
+  "displayed_top_10_buyers": 4,
+  "expected_top_10_buyers_with_random_ties": 3.5714285714285716,
+  "training_log_loss": 0.522357053103662,
+  "validation_brier": 0.15519961770649998,
+  "validation_log_loss": 0.474233103291496,
+  "algorithm": "DecisionTreeClassifier",
+  "random_state": 42,
+  "train_sha256": "ca86e2b6ecb50dbc56a343916bce896f5a3749730d53dc7fe9cdeeeb485ef28a",
+  "validation_sha256": "5915c8ebae341a79497df376dbcb1aa9cf9a16e8d59e101d8547b0d773efa07a"
+}
